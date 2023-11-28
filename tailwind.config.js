@@ -6,8 +6,9 @@ export default {
   theme: {
     fontFamily: {
       sans: [
-        '"Cormorant Upright, serif"',
-        '"Open Sans, sans-serif"',
+        '"Livvic, serif"',
+        '"Judson, sans-serif"',
+        '"Nanum Gothic, serif"',
         {
           fontFeatureSettings: '"tnum", "lnum"',
         },
@@ -20,14 +21,16 @@ export default {
       // },
 
       colors: {
-        transparent: "transparent",
-        current: "currentColor",
-        golden: "#DCCA87",
+        lightGreen: "#6d8c54",
+        mainGreen: "#334b35",
+        darkGreen: "#263c28",
+        golden: "#F7C35F",
         black: "#0C0C0C",
         gray: "#545454",
         crimson: " #F5EFDB",
         lightGrey: "#AAAAAA",
         white: "#ffffff",
+        imageColor: "#2d442f"
       },
 
       height: {
