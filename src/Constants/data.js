@@ -6,11 +6,11 @@ const menus = [
     id: "#home",
   },
   {
-    title: "About Us",
+    title: "About",
     id: "#about",
   },
   {
-    title: "Our Products",
+    title: "Products",
     id: "#product",
   },
   {
@@ -26,7 +26,7 @@ const menus = [
     id: "#news",
   },
   {
-    title: "Contact Us",
+    title: "Contact",
     id: "#contact",
   },
 ];
