@@ -18,6 +18,7 @@ import apple from "../assets/Icon_Apple.png";
 import strawberry from "../assets/icon-Strawberry.png";
 import investment from "../assets/investment.png";
 import leaf from "../assets/leaf.png";
+import logo from "../assets/Logo.png";
 import organicFarm from "../assets/organicFarm.png";
 import productIcon from "../assets/productIcon.png";
 import productImg from "../assets/productImg.png";
@@ -28,6 +29,7 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import testimonial from "../assets/testimonial.png";
+import underline from "../assets/underline.png";
 
 // eslint-disable-next-line
 export default {
@@ -51,6 +53,7 @@ export default {
   strawberry,
   investment,
   leaf,
+  logo,
   organicFarm,
   productIcon,
   productImg,
@@ -61,4 +64,5 @@ export default {
   project3,
   project4,
   testimonial,
+  underline
 };
