@@ -5,7 +5,7 @@
 
 @layer components {
   .section-padding{
-    @apply p-[4rem] 
+    @apply px-[3rem] py-4 md:px-[5rem]
   }
 
   .flex-center {
@@ -13,10 +13,21 @@
   }
 
   .app-bg {
-    @apply bg-[url('./assets/bg.png')] bg-cover
+    @apply bg-[url('./assets/bg1.png')] bg-cover
      bg-fixed bg-center bg-repeat;
   }
 
+  .p-livvic {
+    @apply font-['Livvic'] 
+  }
+
+  .p-gothic {
+    @apply font-['Nanum_Gothic'] 
+  }
+
+  .leaf-img {
+    @apply w-[40px];
+  }
 
   .slide-bottom {
     -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
