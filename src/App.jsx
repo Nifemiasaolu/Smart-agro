@@ -24,7 +24,7 @@ function App() {
       <Services/>
       <News/>
       <ContactUs/>
-      
+
     </div>
   )
 }
