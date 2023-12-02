@@ -30,7 +30,7 @@ function Navbar() {
       </div>
 
       {/* Mobile toggle */}
-      <div className="flex md:hidden">
+      <div className="flex md:hidden z-50">
         <GiHamburgerMenu className="cursor-pointer" onClick={handleClick} />
 
         {toggle && (
