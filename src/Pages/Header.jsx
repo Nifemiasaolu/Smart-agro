@@ -3,7 +3,7 @@ import { images } from "../Constants";
 
 function Header() {
   return (
-    <div className="app-bg section-padding flex h-screen items-center justify-start">
+    <div id="home" className="app-bg section-padding h-[20rem] flex items-center justify-start">
       <div>
         <div className="flex flex-col items-start">
           <p className="p-gothic text-sm font-bold ">Original & Natural</p>
@@ -22,7 +22,7 @@ function Header() {
           </h1>
           <h1 className="p-livvic text-[30px] font-bold">Good Production</h1>
         </div>
-        <p className="p-gothic text-xs  ">
+        <p className="p-gothic text-xs ">
           Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
           In <br /> on my jointure horrible margaret suitable he speedily.
         </p>
