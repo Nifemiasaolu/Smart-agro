@@ -9,6 +9,7 @@ import botanic from "../assets/botanic.png";
 import bottomStyle from "../assets/bottomStyle.png";
 import cabbage from "../assets/cabbage.png";
 import carrot from "../assets/carrot.png";
+import check from "../assets/check.png";
 import eggplant from "../assets/eggplant.png";
 import exploreProjectStyle from "../assets/exploreProjectStyle.png";
 import figma from "../assets/figma.png";
@@ -44,6 +45,7 @@ export default {
   bottomStyle,
   cabbage,
   carrot,
+  check,
   eggplant,
   exploreProjectStyle,
   figma,
@@ -64,5 +66,5 @@ export default {
   project3,
   project4,
   testimonial,
-  underline
+  underline,
 };
