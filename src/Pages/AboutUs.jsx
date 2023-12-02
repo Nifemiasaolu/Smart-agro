@@ -5,14 +5,18 @@ function AboutUs() {
   const text = `We're Leader in Agriculture Market`;
 
   return (
-    <div id="about" className="relative">
-      <div className=" h-[10rem] w-[12rem] bg-darkGreen" />
+    <div id="about" className="relative ">
+      <div className=" h-[10rem] w-[12rem] rounded-e bg-darkGreen" />
 
       <div
         className=" flex-center section-padding absolute left-10
-        top-[0] z-50 flex-col gap-[4rem]  py-[3rem] md:flex-row"
+        top-[0] z-10 flex-col gap-[4rem]  py-[3rem] md:flex-row"
       >
-        <div className="relative">
+
+        <div className="relative ">
+
+        <div className="bg-golden absolute bottom-2 left-[-7px] h-[6rem] w-[0.3rem]"/>
+        
           <div className="w-full">
             <img
               src={images.organicFarm}
@@ -24,7 +28,7 @@ function AboutUs() {
           <div
             className="flex-center absolute bottom-[-1.5rem] 
             left-[1.5rem] w-[12rem] gap-6 rounded bg-lightGreen px-[3px]
-            py-[6px] sm:left-[15%] lg:left-[25%] sm:w-[11rem]  "
+            py-[6px] sm:left-[15%] sm:w-[11rem] lg:left-[25%]  "
           >
             <div className="flex-center relative">
               <img
