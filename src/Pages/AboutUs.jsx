@@ -5,7 +5,7 @@ function AboutUs() {
   const text = `We're Leader in Agriculture Market`;
 
   return (
-    <div id="about" className="relative ">
+    <div id="about" className="relative h-screen md:">
       <div className=" h-[10rem] w-[12rem] rounded-e bg-darkGreen" />
 
       <div
@@ -81,4 +81,4 @@ function AboutUs() {
 }
 
 export default AboutUs;
-///
+/////
