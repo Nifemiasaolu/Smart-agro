@@ -140,5 +140,43 @@ const articles = [
   },
 ]
 
+const vegetables = [
+  {
+    imageUrl: images.apple,
+    name: 'Apple',
+    id: 0
+  },
+
+  {
+    imageUrl: images.blueberry,
+    name: 'Blueberry',
+    id: 1
+  },
+
+  {
+    imageUrl: images.strawberry,
+    name: 'Strawberry',
+    id: 2
+  },
+
+  {
+    imageUrl: images.eggplant,
+    name: 'Eggplant',
+    id: 3
+  },
+
+  {
+    imageUrl: images.cabbage,
+    name: 'Cabbage',
+    id: 4
+  },
+
+  {
+    imageUrl: images.carrot,
+    name: 'Carrot',
+    id: 5
+  },
+
+]
 //eslint-disable-next-line
-export default { menus, organic, figmaImg, links, projects, articles };
+export default { menus, organic, figmaImg, links, projects, articles, vegetables };
