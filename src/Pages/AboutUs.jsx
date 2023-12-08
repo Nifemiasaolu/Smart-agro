@@ -5,22 +5,19 @@ function AboutUs() {
   const text = `We're Leader in Agriculture Market`;
 
   return (
-    <div id="about" className=" h-screen">
-      <div className="relative">
-        <div className=" h-[10rem] w-[12rem] rounded-e bg-darkGreen" />
+    <div id="about" className="">
+      <div className="">
+        {/* <div className=" h-[10rem] w-[12rem] rounded-e bg-darkGreen" /> */}
 
-        <div
-          className=" flex-center section-padding absolute left-10
-        top-[0] z-10 flex-col gap-[4rem]  py-[3rem] md:flex-row"
-        >
+        <div className=" flex-center section-padding  z-10 flex-col gap-[4rem]  py-[3rem] tablet:flex-row">
           <div className="relative ">
             <div className="absolute bottom-2 left-[-7px] h-[6rem] w-[0.3rem] bg-golden" />
 
-            <div className="w-full">
+            <div className="tablet:w-[100%]">
               <img
                 src={images.organicFarm}
                 alt="organicFarm"
-                className="aspect-square w-[15rem] md:w-full"
+                className="aspect-square w-[15rem] tablet:w-[30rem]"
               />
             </div>
 
@@ -51,20 +48,20 @@ function AboutUs() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-start md:items-start">
-            <p className="p-gothic mb-[1rem] text-xs md:mb-[1.5rem]">
+          <div className="flex flex-col items-center justify-start tablet:items-start">
+            <p className="p-gothic mb-[1rem] text-xs tablet:mb-[1.5rem]">
               OUR INTRODUCTION
             </p>
 
-            <h1 className="p-livvic mb-[1rem] text-center text-lg font-bold md:mb-[1.5rem] md:text-start md:text-[20px]">
+            <h1 className="p-livvic mb-[1rem] text-center text-lg font-bold tablet:mb-[1.5rem] tablet:text-start tablet:text-[20px]">
               Pure Agriculture and <br /> Organic Form
             </h1>
 
             <p className="mb-4 text-golden">{text}</p>
 
-            <p className="mb-6 text-center text-xs md:text-start">
+            <p className="mb-6 text-center text-xs tablet:text-start">
               There are many variations of passages of available but the
-              majority have suffered alteration in some form, by injected humou
+              majority have suffered alteration in some form, <br /> by injected humou
               or randomised words even slightly believable.
             </p>
 
