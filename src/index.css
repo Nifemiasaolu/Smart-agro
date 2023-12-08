@@ -16,6 +16,10 @@
     @apply bg-[url('./assets/bg1.png')] bg-cover
      bg-fixed bg-center bg-repeat;
   }
+  .app-bg2 {
+    @apply bg-[url('./assets/bg2.png')] bg-cover
+     bg-fixed bg-center bg-repeat;
+  }
 
   .p-livvic {
     @apply font-['Livvic'] 
