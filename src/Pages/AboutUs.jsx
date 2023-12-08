@@ -5,7 +5,7 @@ function AboutUs() {
   const text = `We're Leader in Agriculture Market`;
 
   return (
-    <div id="about" className=" ">
+    <div id="about" className=" h-screen">
       <div className="relative">
         <div className=" h-[10rem] w-[12rem] rounded-e bg-darkGreen" />
 
