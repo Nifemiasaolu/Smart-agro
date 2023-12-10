@@ -15,7 +15,7 @@ const menus = [
   },
   {
     title: "Projects",
-    id: "#projects",
+    id: "#project",
   },
   {
     title: "Services",
