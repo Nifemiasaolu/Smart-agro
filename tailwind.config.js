@@ -31,7 +31,8 @@ export default {
         lightGrey: "#AAAAAA",
         white: "#ffffff",
         imageColor: "#2d442f",
-        lightBack: "#d9d9d9"
+        lightBack: "#d9d9d9",
+        variantGreen: "#344C31"
       },
 
       height: {
