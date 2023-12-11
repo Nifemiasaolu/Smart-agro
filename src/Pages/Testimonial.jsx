@@ -9,7 +9,6 @@ function Testimonial() {
   Posuere amet lobortis volutpat purus mauris. Tortor magna non turpis
   ultricies iaculis rhoncus. Volutpat lectus proin pellentesque platea.”`;
 
-  // const className = `flex bg-black items-center justify-between`;
 
   return (
     <div className="section-padding my-[4rem] flex-center flex flex-col">
