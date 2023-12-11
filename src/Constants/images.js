@@ -12,6 +12,7 @@ import carrot from "../assets/carrot.png";
 import check from "../assets/check.png";
 import eggplant from "../assets/eggplant.png";
 import exploreProjectStyle from "../assets/exploreProjectStyle.png";
+import ellipse from "../assets/ellipse.png";
 import figma from "../assets/figma.png";
 import quote from "../assets/quote.png";
 import growth from "../assets/growth.png";
@@ -24,6 +25,7 @@ import organicFarm from "../assets/organicFarm.png";
 import productIcon from "../assets/productIcon.png";
 import productImg from "../assets/productImg.png";
 import productStyle from "../assets/productStyle.png";
+import productFaintStyle from "../assets/productFaintStyle.png";
 import productVegetable from "../assets/productVegetables.png";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
@@ -48,6 +50,7 @@ export default {
   check,
   eggplant,
   exploreProjectStyle,
+  ellipse,
   figma,
   quote,
   growth,
@@ -60,6 +63,7 @@ export default {
   productIcon,
   productImg,
   productStyle,
+  productFaintStyle,
   productVegetable,
   project1,
   project2,
