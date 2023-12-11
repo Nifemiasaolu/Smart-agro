@@ -8,7 +8,6 @@ function Services() {
         <img src={images.productImg} alt="productImg" className=" " />
       </div>
 
-      <div></div>
 
       <div className="relative">
         <div>
