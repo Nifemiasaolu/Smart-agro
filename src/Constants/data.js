@@ -114,69 +114,94 @@ const projects = [
     imgUrl: images.project4,
     id: 3,
   },
-]
+];
 
 const articles = [
   {
     imgUrl: images.article1,
     name: "Kelvin Martin",
-    comments: '2',
+    comments: "2",
     text: "Taking seamless key indicators offline",
     id: 0,
   },
   {
     imgUrl: images.article2,
     name: "Kelvin Martin",
-    comments: '3',
+    comments: "3",
     text: "Override the digital divide with additional",
     id: 1,
   },
   {
     imgUrl: images.article3,
     name: "Kelvin Martin",
-    comments: '1',
+    comments: "1",
     text: "Agriculture Matters to the Future of next",
     id: 2,
   },
-]
+];
 
 const vegetables = [
   {
     imageUrl: images.apple,
-    name: 'Apple',
-    id: 0
+    name: "Apple",
+    id: 0,
   },
 
   {
     imageUrl: images.blueberry,
-    name: 'Blueberry',
-    id: 1
+    name: "Blueberry",
+    id: 1,
   },
 
   {
     imageUrl: images.strawberry,
-    name: 'Strawberry',
-    id: 2
+    name: "Strawberry",
+    id: 2,
   },
 
   {
     imageUrl: images.eggplant,
-    name: 'Eggplant',
-    id: 3
+    name: "Eggplant",
+    id: 3,
   },
 
   {
     imageUrl: images.cabbage,
-    name: 'Cabbage',
-    id: 4
+    name: "Cabbage",
+    id: 4,
   },
 
   {
     imageUrl: images.carrot,
-    name: 'Carrot',
-    id: 5
+    name: "Carrot",
+    id: 5,
+  },
+];
+
+const services = [
+  {
+    imgUrl: images.growth,
+    title: "Our Agriculture Growth",
+    text: "Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus arcu. Metus elit auctor",
+    id: 0,
   },
 
-]
+  {
+    imgUrl: images.productVegetable,
+    title: "Making Healthy Foods",
+    text: "Lorem ipsum dolor sit amet consectetur. Cursus purus at tempus arcu. Metus elit auctor interdum scelerisque",
+    id: 1,
+  },
+];
+
 //eslint-disable-next-line
-export default { menus, organic, figmaImg, links, projects, articles, vegetables };
+export default {
+  menus,
+  organic,
+  figmaImg,
+  links,
+  projects,
+  articles,
+  vegetables,
+  services
+};
